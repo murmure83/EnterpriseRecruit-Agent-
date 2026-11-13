@@ -1,0 +1,30 @@
+# API 密钥和环境变量
+.env
+.env.*
+!.env.example
+
+# Python 缓存
+__pycache__/
+*.py[cod]
+
+# 虚拟环境
+.venv/
+venv/
+env/
+
+# PyCharm 配置
+.idea/
+
+# 真实简历和上传文件
+data/resumes/
+outputs/uploads/
+
+# 招聘分析报告
+outputs/*
+
+# 向量数据库（可重新构建）
+data/chroma_db/
+
+# 系统文件
+.DS_Store
+Thumbs.db
